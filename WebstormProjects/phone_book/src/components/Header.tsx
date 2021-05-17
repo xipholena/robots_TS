@@ -2,10 +2,12 @@ import React, {FC} from 'react';
 
 const Header: FC = () => {
     return (
-        <header className="header">
-            <p>Logo</p>
-            <button className="header__log-link">Sign in</button>
-        </header>
+        <div className="container">
+            <header className="header">
+                <p>Logo</p>
+                <button className="header__log-link">Sign in</button>
+            </header>
+        </div>
     )
 }
 
